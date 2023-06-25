@@ -9,7 +9,7 @@ The code in this repository allows for:
 Regardless of your use case, the setup is similar:
 1. Create virtual environment and install the requirements:
 ```bash
-pip install -r requirements
+pip install -r requirements.txt
 ```
 2. Create a `.env` ⚙️ file and include the following variables:
 ```env
@@ -26,7 +26,7 @@ Data will be saved to the `/data/raw/` directory with the timestamp (at completi
 
 ## Like Most Recent Posts
 To like the most recent posts, simple include the `-like` flag when running the main script:
-```
+```python
 python main.py -like
 ```
 The script will attempt to like all posts and skip over posts that have already been liked. By default, the logging information will be streamed but you can find the log file in `/src/utils/`
