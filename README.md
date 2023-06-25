@@ -12,12 +12,12 @@ Regardless of your use case, the setup is similar:
 pip install -r requirements
 ```
 2. Create a `.env` ⚙️ file and include the following variables:
-```json
+```env
 USERNAME=<azure username without domain>
 PASSWORD=<azure password>
 ```
 
-## Scrape Recognition Date
+## Scrape Recognition Data
 By default, the program will _always_ scrape the latest updates and save them. To pull Motivosity updates, simply run the `main.py` script from the command line without arguments:
 ```python
 python main.py
