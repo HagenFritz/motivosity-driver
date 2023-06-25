@@ -1,5 +1,3 @@
-![ro_logo](https://github.com/rogers-obrien-rad/general-template/blob/main/images/ro_logo.png)
-
 # Motivosity Driver
 _Scrape data from and drive the Motivosity platform_
 
